@@ -270,7 +270,7 @@ const file_user_proto_rawDesc = "" +
 	"\n" +
 	"CreateUser\x12\t.upb.User\x1a\v.upb.Status\"\x00\x12&\n" +
 	"\n" +
-	"UpdateUser\x12\t.upb.User\x1a\v.upb.Status\"\x00B)Z'10.1.20.149/dropping/proto-user/pkg/upbb\x06proto3"
+	"UpdateUser\x12\t.upb.User\x1a\v.upb.Status\"\x00B)Z'10.1.20.130/dropping/proto-user/pkg/upbb\x06proto3"
 
 var (
 	file_user_proto_rawDescOnce sync.Once
