@@ -5,6 +5,7 @@ option go_package = "10.1.20.130/dropping/proto-user/pkg/upb";
 service UserService{
   rpc CreateUser(User) returns (Status){} 
   rpc UpdateUser(User) returns (Status){}
+  rpc DeleteUser(UserId) returns (Status){}
 }
 
 message User{
@@ -15,10 +16,6 @@ message User{
   string password = 5;
   bool verified = 6;
   bool two_factor_enabled = 7;
-}
-
-message Email{
-  string email =1;
 }
 
 message UserId{
