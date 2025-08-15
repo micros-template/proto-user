@@ -1,6 +1,6 @@
 syntax = "proto3";
 package upb;
-option go_package = "10.1.20.130/dropping/proto-user/pkg/upb";
+option go_package = "github.com/micros-template/proto-user/pkg/upb";
 
 service UserService{
   rpc CreateUser(User) returns (Status){} 
